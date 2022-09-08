@@ -3,7 +3,7 @@
  * main - Entry point
  * void - empty
  * puts - to replace the common printf
- * Return - Always 0 (Success)
+ * Return: Always 0 (Success)
  * (0) - means the code is successful
  */
 int main(void)
