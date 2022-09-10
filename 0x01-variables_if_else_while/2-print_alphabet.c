@@ -1,15 +1,14 @@
 #include <stdio.h>
-#include <stdlib.h>
 /**
- *main - entry point
- *Return: (0) is success
+ * main - entr point
+ * Return:(0) is always success
  */
 int main(void)
 {
-char low;
-for (low = 'a', low <= 'z'; low++)
+char ch;
+for (ch = 'a' ; ch <= 'z' ; ch++)
 {
-putchar(low);
+putchar(ch);
 }
 putchar('\n');
 return (0);
