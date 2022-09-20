@@ -6,12 +6,11 @@
  */
 int _isupper(int c)
 {
-if (upper >= 65 && upper <= 90)
+if (c >= 65 && c <= 90)
 {
-return (1);
+return (1);i
 }
 else
 {
 return (0);
-}
 }
