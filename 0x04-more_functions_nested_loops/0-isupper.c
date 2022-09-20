@@ -7,9 +7,10 @@
 int _isupper(int c)
 {
 if (upper >= 65 && upper <= 90)
-{return (1);
+{
+return (1);
 }
-else 
+else
 {
 return (0);
 }
