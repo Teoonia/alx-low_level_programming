@@ -17,7 +17,7 @@ int _sqrt_check(int g, int h)
 	if (g > h)
 	{
 		return (-1);
-	
+	}	
 	else
 	{
 		return (_sqrt_check(g +1, h));
