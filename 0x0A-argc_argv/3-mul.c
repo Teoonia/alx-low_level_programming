@@ -9,6 +9,8 @@ if(argc != 3)
 printf("Error \n");
 return(1);
 }I
+numt1 = atoi(argv[1]);
+numt2 = atoi(argv[2]);
 prodt = numt1 * numt2;
 printf("%d \n", prodt);
 }
