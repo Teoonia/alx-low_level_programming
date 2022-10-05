@@ -13,4 +13,5 @@ for (count = 0; str[count] != '\0'; count++)
 	str[count] = dup[count];
 dup[count] = '\0';
 return (dup);
+
 }
